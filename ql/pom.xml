@@ -970,6 +970,10 @@
                   <pattern>org.objenesis</pattern>
                   <shadedPattern>org.apache.hive.org.objenesis</shadedPattern>
                 </relocation>
+                <relocation>
+                  <pattern>org.apache.orc</pattern>
+                  <shadedPattern>org.apache.hive.org.apache.orc</shadedPattern>
+                </relocation>
               </relocations>
             </configuration>
           </execution>
