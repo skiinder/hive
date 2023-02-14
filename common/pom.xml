@@ -382,29 +382,6 @@
             </execution>
           </executions>
         </plugin>
-
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-shade-plugin</artifactId>
-        <version>${maven.shade.plugin.version}</version>
-        <executions>
-          <execution>
-            <phase>package</phase>
-            <goals>
-              <goal>shade</goal>
-            </goals>
-            <configuration>
-              <relocations> <!--重命名冲突包名、类名-->
-                <relocation>
-                  <pattern>org.apache.orc</pattern>
-                  <shadedPattern>shaded.org.apache.orc</shadedPattern>
-                </relocation>
-              </relocations>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-
     </plugins>
   </build>
 </project>
