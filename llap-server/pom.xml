@@ -34,6 +34,12 @@
   <dependencies>
     <!-- dependencies are always listed in sorted order by groupId, artifactId -->
     <!-- intra-project -->
+
+    <dependency>
+      <groupId>org.apache.orc</groupId>
+      <artifactId>orc-core</artifactId>
+    </dependency>
+
     <dependency>
       <groupId>org.apache.hive</groupId>
       <artifactId>hive-exec</artifactId>
@@ -177,10 +183,7 @@
         </exclusion>
       </exclusions>
     </dependency>
-    <dependency>
-      <groupId>org.apache.orc</groupId>
-      <artifactId>orc-core</artifactId>
-    </dependency>
+
     <dependency>
       <groupId>org.apache.tez</groupId>
       <artifactId>tez-runtime-internals</artifactId>
