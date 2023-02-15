@@ -10,7 +10,9 @@
     <modelVersion>4.0.0</modelVersion>
     <properties>
         <shaded.prefix>org.apache.hive.thirdparty</shaded.prefix>
+        <hive.path.to.root>..</hive.path.to.root>
     </properties>
+
 
     <artifactId>hive-shaded-thirdparty</artifactId>
     <packaging>pom</packaging>

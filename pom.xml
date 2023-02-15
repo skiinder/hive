@@ -31,6 +31,7 @@
   </prerequisites>
 
   <modules>
+    <module>hive-shaded-thirdparty</module>
     <module>accumulo-handler</module>
     <module>vector-code-gen</module>
     <module>beeline</module>
@@ -62,7 +63,6 @@
     <module>packaging</module>
     <module>standalone-metastore</module>
     <module>upgrade-acid</module>
-    <module>hive-shaded-thirdparty</module>
   </modules>
 
   <properties>

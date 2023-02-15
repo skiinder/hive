@@ -11,6 +11,10 @@
 
     <artifactId>hive-shaded-orc</artifactId>
 
+    <properties>
+        <hive.path.to.root>../..</hive.path.to.root>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.orc</groupId>
