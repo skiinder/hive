@@ -102,6 +102,7 @@
         <include>upgrade-acid/**/*</include>
         <include>vector-code-gen/**/*</include>
         <include>kryo-registrator/**/*</include>
+        <include>hive-shaded-thirdparty/**/*</include>
       </includes>
       <outputDirectory>/</outputDirectory>
     </fileSet>
